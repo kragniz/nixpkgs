@@ -11926,6 +11926,8 @@ let
 
   finalterm = callPackage ../applications/misc/finalterm { };
 
+  rocket = callPackage ../applications/virtualization/rocket { };
+
   roxterm = callPackage ../applications/misc/roxterm {
     inherit (pythonPackages) lockfile;
     inherit (gnome3) vte gsettings_desktop_schemas;
