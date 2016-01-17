@@ -12645,6 +12645,8 @@ let
 
   sxhkd = callPackage ../applications/window-managers/sxhkd { };
 
+  slack = callPackage ../applications/misc/slack { };
+
   msmtp = callPackage ../applications/networking/msmtp { };
 
   imapfilter = callPackage ../applications/networking/mailreaders/imapfilter.nix {
